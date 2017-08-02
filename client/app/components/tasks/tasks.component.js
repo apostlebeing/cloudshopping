@@ -6,18 +6,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = require("@angular/core");
-var TasksComponent = (function () {
-    function TasksComponent() {
-    }
-    TasksComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'tasks',
-            templateUrl: 'tasks.component.html'
-        })
-    ], TasksComponent);
-    return TasksComponent;
-}());
+const core_1 = require("@angular/core");
+let TasksComponent = class TasksComponent {
+};
+TasksComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'tasks',
+        templateUrl: 'tasks.component.html'
+    })
+], TasksComponent);
 exports.TasksComponent = TasksComponent;
 //# sourceMappingURL=tasks.component.js.map
