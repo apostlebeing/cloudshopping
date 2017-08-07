@@ -1,5 +1,5 @@
 {
-  "name": "myshoppinglist",
+  "name": "lista",
   "version": "1.0.0",
   "description": "cloud shopping list",
   "main": "server.js",
